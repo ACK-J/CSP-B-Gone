@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        width: 300px;
+        padding: 10px;
+        font-family: Arial, sans-serif;
+      }
+      h1 {
+        font-size: 16px;
+        margin: 0;
+      }
+      pre {
+        background-color: #f4f4f4;
+        padding: 10px;
+        border-radius: 4px;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+      }
+      .no-csp {
+        color: red;
+      }
+    </style>
+        <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        textarea {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            margin-bottom: 20px;
+            resize: vertical; /* Optional: Allow users to resize the textarea vertically */
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            padding: 10px;
+            border: 1px solid #ddd;
+            margin-bottom: 5px;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            white-space: pre-wrap;
+        }
+
+        .highlight {
+            font-weight: bold;
+        }
+
+        .footer {
+            margin-top: 40px;
+            font-size: 14px;
+            text-align: center;
+        }
+
+        .credits-section {
+            margin-top: 20px;
+            text-align: left;
+        }
+
+        .thank-you {
+            font-weight: bold;
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        #credits {
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Content Security Policy</h1>
+    <div id="csp-container">
+      <p class="no-csp"></p>
+    </div>
+    <ul id="results"></ul>
+    <script src="popup.js"></script>
+  </body>
+</html>
+
