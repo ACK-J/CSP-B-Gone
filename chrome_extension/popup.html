@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /* Scale and origin */
+      html, body {
+        transform: scale(1.2);
+        transform-origin: top left;
+        /* Set base width so final width ~1000px after scaling */
+        width: 833px;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        font-size: 14px; /* After scaling ~16.8px */
+        padding: 20px;
+        box-sizing: border-box;
+      }
+
+      h1 {
+        font-size: 16px; /* ~19px after scaling */
+        margin: 0 0 10px 0;
+      }
+
+      pre {
+        background-color: #f4f4f4;
+        padding: 10px;
+        border-radius: 4px;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        margin: 10px 0;
+      }
+
+      .no-csp {
+        color: red;
+      }
+
+      textarea {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+        margin-bottom: 20px;
+        resize: vertical;
+        box-sizing: border-box;
+      }
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      li {
+        padding: 10px;
+        border: 1px solid #ddd;
+        margin-bottom: 5px;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        white-space: pre-wrap;
+      }
+
+      .highlight {
+        font-weight: bold;
+      }
+
+      .footer {
+        margin-top: 40px;
+        font-size: 14px;
+        text-align: center;
+      }
+
+      .credits-section {
+        margin-top: 20px;
+        text-align: left;
+      }
+
+      .thank-you {
+        font-weight: bold;
+        font-size: 16px;
+        color: #333;
+        margin-bottom: 10px;
+      }
+
+      #credits {
+        font-size: 14px;
+        color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Content Security Policy</h1>
+    <div id="csp-container">
+      <p class="no-csp"></p>
+    </div>
+    <ul id="results"></ul>
+    <script src="popup.js"></script>
+  </body>
+</html>
