@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "CSP Checker",
+  "name": "CSP B Gone",
   "version": "1.0",
-  "description": "Displays the content security policy of the current site to the user.",
+  "description": "Check the CSP of the current website against a list of known bypasses.",
   "permissions": [
     "webRequest",
     "webRequestBlocking",
@@ -22,6 +22,9 @@
     "gecko": {
       "id": "{f752c21f-800e-4c0c-86d0-ce4354995078}"
     }
-  }
+  },
+  "icons": {
+  "512": "icons/gate-512.png"
+}
 }
 
