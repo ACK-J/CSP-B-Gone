@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', function() {
    */
   async function initialize () {
     try {
-      const response = await fetch('https://api.github.com/repos/renniepak/CSPBypass/contents/data.tsv?ref=main', {
+      const response = await fetch('https://api.github.com/repos/ACK-J/CSP-B-Gone/contents/data.tsv?ref=main', {
         headers: { 'Accept': 'application/vnd.github.v3.raw' }
       });
       const data = await response.text();
