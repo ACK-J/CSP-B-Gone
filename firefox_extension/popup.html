@@ -2,91 +2,138 @@
 <html>
   <head>
     <style>
+      /* General Styles */
       body {
-        width: 300px;
-        padding: 10px;
-        font-family: Arial, sans-serif;
+        width: 350px; /* Slightly wider for better content fitting */
+        padding: 20px;
+        font-family: 'Arial', sans-serif;
+        color: #333;
+        background-color: #fff;
+        box-sizing: border-box;
       }
+
       h1 {
-        font-size: 16px;
-        margin: 0;
+        font-size: 18px;
+        margin-bottom: 15px;
+        font-weight: 600;
+        color: #444;
+        text-align: center; /* Center the heading */
       }
-      pre {
+
+      /* CSP Container */
+      #csp-container {
+        max-height: 250px; /* Limit the height */
+        overflow-y: auto; /* Allow scrolling */
         background-color: #f4f4f4;
         padding: 10px;
-        border-radius: 4px;
+        border-radius: 6px;
+        font-size: 14px;
         white-space: pre-wrap;
         word-wrap: break-word;
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
       }
+
       .no-csp {
-        color: red;
+        color: #000000;
+        font-size: 14px;
+        text-align: center;
+        margin: 0;
       }
-    </style>
-        <style>
-        body {
-            font-family: Arial, sans-serif;
-            padding: 20px;
-            max-width: 600px;
-            margin: auto;
-        }
 
-        textarea {
-            width: 100%;
-            padding: 10px;
-            font-size: 16px;
-            margin-bottom: 20px;
-            resize: vertical; /* Optional: Allow users to resize the textarea vertically */
-        }
+      /* Results List */
+      #results {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
 
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
+      li {
+        padding: 12px;
+        margin-bottom: 8px;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        background-color: #f9f9f9;
+        word-wrap: break-word;
+        font-size: 14px;
+        color: #555;
+        transition: background-color 0.2s ease-in-out;
+      }
 
-        li {
-            padding: 10px;
-            border: 1px solid #ddd;
-            margin-bottom: 5px;
-            word-wrap: break-word;
-            overflow-wrap: break-word;
-            white-space: pre-wrap;
-        }
+      li:hover {
+        background-color: #f1f1f1; /* Slight hover effect */
+      }
 
-        .highlight {
-            font-weight: bold;
-        }
+      .highlight {
+        font-weight: bold;
+        color: #007bff;
+      }
 
-        .footer {
-            margin-top: 40px;
-            font-size: 14px;
-            text-align: center;
-        }
+      /* Search Box */
+      input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        box-sizing: border-box;
+      }
 
-        .credits-section {
-            margin-top: 20px;
-            text-align: left;
-        }
+      input[type="text"]:focus {
+        outline: none;
+        border-color: #007bff; /* Highlight border color on focus */
+      }
 
-        .thank-you {
-            font-weight: bold;
-            font-size: 16px;
-            color: #333;
-            margin-bottom: 10px;
-        }
+      /* Footer */
+      .footer {
+        margin-top: 20px;
+        font-size: 12px;
+        color: #aaa;
+        text-align: center;
+      }
 
-        #credits {
-            font-size: 14px;
-            color: #555;
-        }
+      .credits-section {
+        margin-top: 10px;
+        font-size: 12px;
+        color: #666;
+        text-align: left;
+      }
+
+      .thank-you {
+        font-weight: 600;
+        color: #333;
+        margin-bottom: 5px;
+      }
+
+      #credits {
+        font-size: 12px;
+        color: #555;
+      }
     </style>
   </head>
   <body>
-    <h1>Content Security Policy</h1>
+    <h1>Content Security Policy (CSP) Bypasses</h1>
+    
+    <!-- Input Search Box -->
+    <input type="text" id="searchBox" placeholder="Search CSP Bypasses...">
+
+    <!-- Icon Link https://www.flaticon.com/free-icon/witch-hat_18018744?term=wizard&page=1&position=34&origin=search&related_id=18018744 -->
+    <!-- Display the CSP content or error message -->
     <div id="csp-container">
-      <p class="no-csp"></p>
+      <p class="no-csp">No CSP found for this domain.</p>
     </div>
+
+    <!-- List of search results -->
     <ul id="results"></ul>
+
+    <!-- Footer with credits -->
+    <div class="footer">
+      <div class="thank-you" id="credits">
+        <a href="https://github.com/ACK-J/CSP-B-Gone" target="_blank" style="color: #007bff; text-decoration: none;">GitHub Repo</a>
+      </div>
+    </div>
+
     <script src="popup.js"></script>
   </body>
 </html>
-
