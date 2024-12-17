@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const displayResults = (data) => {
     resultsList.innerHTML = data.length
       ? data.map(item => `<li><strong>${htmlEncode(item.domain)}</strong><br><br>${htmlEncode(item.code)}</li>`).join('')
-      : '<li>No results found</li>';
+      : '<li>No CSP Bypasses Found</li>';
   };
 
   // Process a given CSP directive, handling special cases like wildcards
