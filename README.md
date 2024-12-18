@@ -7,6 +7,7 @@
 This addon check the CSP of the current website against a list of known bypasses. You can also use the search bar to check if a specific domain has a known CSP bypass. 
 
 # Popup
+The image below shows the extension popup which has three parts. The middle field which says "defaul-src" is the current page's CSP policy. The bottom two boxes are validated CSP bypasses which will work on the current page. The top search bar allows you to search for CSP bypasses of other domains. 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/64089b2c-f3d6-4e4b-8d61-d9e73361be6d" alt="GUI">
 </p>
@@ -18,6 +19,11 @@ JSONP endpoints used to bypass CSP are discovered by querying the archive.org da
 
 # When Would I Need a CSP Bypass?
 A Content Security Policy (CSP) bypass may be necessary in specific scenarios, typically related to web security testing or development. CSP is a security feature that helps prevent a range of attacks like Cross-Site Scripting (XSS), data injection attacks, and clickjacking by controlling which resources the browser is allowed to load and execute. 
+
+# Credits
+This extension was hevaily inspired by the great work done by @renniepak for cspbypass.com and all of the contributors listed below:
+
+Gareth Heyes, Eduardo Vela, kevin_mizu, ajxchapman, YoeriVegt, IvarsVids, Panya, w9w, notdenied, renniepak, ldionmarcil, joaxcar, HackerOn2Wheels, omidxrz, realansgar, renwax23
 
 ## Donations ❤️
 If you are feeling generous or really like my work, consider donating
