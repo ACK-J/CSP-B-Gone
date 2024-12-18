@@ -110,6 +110,26 @@
         font-size: 12px;
         color: #555;
       }
+      .centered {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .containerBHIS {
+        margin-left: auto;
+        padding-top: 20px;  
+        margin-right: auto;
+      }
+      /* Prevent visited links from being highlighted */
+      a:visited {
+        color: inherit; /* Use the same color as normal links */
+      }
+
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
     </style>
   </head>
   <body>
@@ -135,5 +155,8 @@
     </div>
 
     <script src="popup.js"></script>
+    <div class="containerBHIS">
+      <p class="centered" style="font-size: 12px; margin-top: -19px;"><a target="_blank" href="https://blackhillsinfosec.com"><img src="icons/BHIS.jpg" width="32" height="32" style="margin-top: -4px; margin-right: 3px;"></a><strong style="text-align: center;"><a target="_blank" href="https://blackhillsinfosec.com">Sponsored by Black Hills</br>Information Security</strong><img src="icons/BHIS.jpg" width="32" height="32" style="margin-top: -4px; margin-left: 3px;"></a></p>
+    </div>
   </body>
 </html>
