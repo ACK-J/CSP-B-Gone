@@ -17,6 +17,8 @@ The most common way to bypass CSP is by finding a JSONP endpoint on a trusted do
 
 JSONP endpoints used to bypass CSP are discovered by querying the archive.org database on a monthly basis for URLs with a common feature set. Each suspected URL is injected into a script src element inside a headless browser with the `alert()` function hooked. If an alert box fires then the URL is a confirmed JSONP endpoint and added to the GitHub list <a href=https://github.com/ACK-J/CSP-B-Gone/blob/main/data.tsv>HERE</a>.
 
+This extension takes inspiration from <a href=https://cspbypass.com>cspbypass.com</a> but includes a much larger database of bypasses. Cspbypass.com focuses on bypasses for the top 1,000 sites while this extension attempts to collect any and all CSP bypasses possible.
+
 # When Would I Need a CSP Bypass?
 A Content Security Policy (CSP) bypass may be necessary in specific scenarios, typically related to web security testing or development. CSP is a security feature that helps prevent a range of attacks like Cross-Site Scripting (XSS), data injection attacks, and clickjacking by controlling which resources the browser is allowed to load and execute. 
 
