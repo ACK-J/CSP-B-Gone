@@ -304,6 +304,7 @@ clients1.google.com	<script src="http://clients1.google.com/complete/search?call
 clipfoo.com	<script src="https://clipfoo.com/js/routing?callback=alert"></script>
 cloud9.ldwebstudios.net	<script src="https://cloud9.ldwebstudios.net:7000/stats?json=1&sid=1&callback=alert%28%29%3B&_=1728429925209"></script>
 cloudfront.cdn.casece.com	<script src="https://cloudfront.cdn.casece.com/_layouts/15/Geolocation/GetCountry.aspx?callback=alert%281%29%2F%2F&_=1728467518354"></script>
+cloud.tenable.com <script src="https://cloud.tenable.com/provisioning/v1/evaluation/invalid-domains?callback=alert%281%29"></script>
 cmd.stofa.net	<script src="https://cmd.stofa.net/cmd.php?manufacturer=webtv&ver=6.7.0&company=boxer&model=Chrome&uid=null&drmKey=null&token=null&cmd=createTempUid&_=1728425956850&callback=%2522-alert%601%60-%2522"></script>
 cmsapi.igoldapi.com	<script src="https://cmsapi.igoldapi.com/thirdparty/IPArea/IPAreaDetail?format=json&callback=alert%281%29%252f%252f&_=1728532043117"></script>
 cms.jamtransfer.com	<script src="https://cms.jamtransfer.com/widget2/data.php?callback=alert%281%29&rid=0&fid=100009&hash=dbe3394d771c0e430eb215acfcac4ae062a9fc9e631e84fbb726fb08f9fc3a38&language=en-GB&option=com_sppagebuilder&view=page&id=1&Itemid=101&lang=en-GB&_=1728606190758"></script>
