@@ -304,7 +304,7 @@ clients1.google.com	<script src="http://clients1.google.com/complete/search?call
 clipfoo.com	<script src="https://clipfoo.com/js/routing?callback=alert"></script>
 cloud9.ldwebstudios.net	<script src="https://cloud9.ldwebstudios.net:7000/stats?json=1&sid=1&callback=alert%28%29%3B&_=1728429925209"></script>
 cloudfront.cdn.casece.com	<script src="https://cloudfront.cdn.casece.com/_layouts/15/Geolocation/GetCountry.aspx?callback=alert%281%29%2F%2F&_=1728467518354"></script>
-cloud.tenable.com <script src="https://cloud.tenable.com/provisioning/v1/evaluation/invalid-domains?callback=alert%281%29"></script>
+cloud.tenable.com	<script src="https://cloud.tenable.com/provisioning/v1/evaluation/invalid-domains?callback=alert%281%29"></script>
 cmd.stofa.net	<script src="https://cmd.stofa.net/cmd.php?manufacturer=webtv&ver=6.7.0&company=boxer&model=Chrome&uid=null&drmKey=null&token=null&cmd=createTempUid&_=1728425956850&callback=%2522-alert%601%60-%2522"></script>
 cmsapi.igoldapi.com	<script src="https://cmsapi.igoldapi.com/thirdparty/IPArea/IPAreaDetail?format=json&callback=alert%281%29%252f%252f&_=1728532043117"></script>
 cms.jamtransfer.com	<script src="https://cms.jamtransfer.com/widget2/data.php?callback=alert%281%29&rid=0&fid=100009&hash=dbe3394d771c0e430eb215acfcac4ae062a9fc9e631e84fbb726fb08f9fc3a38&language=en-GB&option=com_sppagebuilder&view=page&id=1&Itemid=101&lang=en-GB&_=1728606190758"></script>
@@ -506,7 +506,7 @@ imperio-mu.online	<script src="https://imperio-mu.online/ajax/get-time?callback=
 inbestia.com	<script src="https://inbestia.com/js/routing?callback=alert"></script>
 info.cloudflare.com	<script src="https://info.cloudflare.com//index.php/form/getForm?munchkinId=194-VVC-221&form=1077&callback=alert"></script>
 info.elastic.co	<script src="https://info.elastic.co/index.php/form/getForm?munchkinId=813-MAM-392&form=6196&callback=alert"></script>
-info.tenable.com <script src="https://info.tenable.com/index.php/form/getForm?munchkinId=934-XQB-568&form=10616&url=https%3A%2F%2Fwww.tenable.com%2Fproducts%2Fnessus&callback=alert&_=1734632951358"></script>
+info.tenable.com	<script src="https://info.tenable.com/index.php/form/getForm?munchkinId=934-XQB-568&form=10616&url=https%3A%2F%2Fwww.tenable.com%2Fproducts%2Fnessus&callback=alert&_=1734632951358"></script>
 inno.blob.core.windows.net	<body ng-app ng-csp><script src="//inno.blob.core.windows.net/new/libs/AngularJS/1.2.1/angular.min.js"></script><div ng-app ng-csp><div ng-focus="x=$event;" id=f tabindex=0>foo</div><div ng-repeat="(key, value) in x.view"><div ng-if="key == 'window'">{{ [1].reduce(value.alert, 1); }}</div></div></div></body>
 insales.boxberry.ru	<script src="https://insales.boxberry.ru/box/insales/get-price-point.php?shop-id=829967&prepaid=1&callback=alert%281%29&region=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&city=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0&weight=0.5&price=1&_=1728504276131"></script>
 insight.apcc21.org	<script src="https://insight.apcc21.org/InsightTrk/guuidSkeleton.do?guuid=8a4c250d2b0a0041e1a2b17d659bedb8_49006&domain=cliks.apcc21.org&callback=alert%28%29%3B"></script>
