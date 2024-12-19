@@ -27,6 +27,5 @@ This extension was hevaily inspired by the great work done by @renniepak for csp
 
 Gareth Heyes, Eduardo Vela, kevin_mizu, ajxchapman, YoeriVegt, IvarsVids, Panya, w9w, notdenied, renniepak, ldionmarcil, joaxcar, HackerOn2Wheels, omidxrz, realansgar, renwax23
 
-## Donations ❤️
-If you are feeling generous or really like my work, consider donating
+## Donations 
 - Monero Address: `89jYJvX3CaFNv1T6mhg69wK5dMQJSF3aG2AYRNU1ZSo6WbccGtJN7TNMAf39vrmKNR6zXUKxJVABggR4a8cZDGST11Q4yS8`
